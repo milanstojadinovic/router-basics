@@ -5,15 +5,16 @@ import './index.css';
 import App from './App';
 import Home from './routes/Home';
 import About from './routes/About';
+import Page404 from './routes/Page404';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path='/' element={<App />}>
-        <Route path='/home' element={<Home />} />
-        <Route path='/about' element={<About />} />
-      </Route>
+      <Route path='/' element={<App />} />
+      <Route path='/home' element={<Home />} />
+      <Route path='/about' element={<About />} />
+      <Route path='*' element={<Page404 />} />
     </Routes>
   </BrowserRouter>
 );
