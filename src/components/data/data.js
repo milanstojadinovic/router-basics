@@ -11,7 +11,7 @@ const data = [
   },
   {
     id: 3,
-    title: 'About childhood',
+    title: 'About my childhood',
     text: 'I was born in ....',
   },
 ];

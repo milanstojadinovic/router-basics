@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../UI/Header';
 import './Home.css';
 import Navbar from '../routes/Navbar';
 
@@ -8,9 +7,9 @@ const Home = (props) => {
     <div>
       <Navbar />
       <div className='home'>
-        <Header className='home__main-title'>
+        <div className='home__main-title'>
           <h1>Home Page</h1>
-        </Header>
+        </div>
         <p>Welcome to my home page!</p>
       </div>
     </div>

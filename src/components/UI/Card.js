@@ -1,8 +1,10 @@
 import React from 'react';
 
-const Header = (props) => {
+import '../UI/Card.css';
+
+const Card = (props) => {
   const classes = `header ${props.className}`;
   return <div className={classes}>{props.children}</div>;
 };
 
-export default Header;
+export default Card;
