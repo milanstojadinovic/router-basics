@@ -1,8 +1,7 @@
 .about {
   padding: 1rem;
-  background-color: #222222;
 }
 
 .about__main-title {
-  color: #eeeeee;
+  border-bottom: 3px solid red;
 }

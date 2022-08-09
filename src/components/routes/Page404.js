@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from '../routes/Navbar';
 import './Page404.css';
 
 const Page404 = () => {

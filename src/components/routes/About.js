@@ -1,14 +1,16 @@
 import React from 'react';
+import Header from '../UI/Header';
+import Navbar from '../routes/Navbar';
+
 import './About.css';
-import Navbar from './Navbar';
 
 const About = () => {
   return (
     <div>
       <Navbar />
-      <div className='about'>
+      <Header className='about'>
         <h1 className='about__main-title'>About Me Page</h1>
-      </div>
+      </Header>
     </div>
   );
 };

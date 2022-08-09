@@ -1,13 +1,16 @@
 import React from 'react';
+import Header from '../UI/Header';
 import './Home.css';
-import Navbar from './Navbar';
+import Navbar from '../routes/Navbar';
 
-const Home = () => {
+const Home = (props) => {
   return (
     <div>
       <Navbar />
       <div className='home'>
-        <h1 className='home__main-title'>Home Page</h1>
+        <Header className='home__main-title'>
+          <h1>Home Page</h1>
+        </Header>
         <p>Welcome to my home page!</p>
       </div>
     </div>
