@@ -1,11 +1,11 @@
 import React from 'react';
-import Navigation from './Navigation';
 import './Home.css';
+import Navbar from './Navbar';
 
 const Home = () => {
   return (
     <div>
-      <Navigation />
+      <Navbar />
       <div className='home'>
         <h1 className='home__main-title'>Home Page</h1>
         <p>Welcome to my home page!</p>

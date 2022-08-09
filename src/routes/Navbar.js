@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './Navigation.css';
+import './Navbar.css';
 
-const Navigation = () => {
+const Navbar = () => {
   return (
     <div>
       <nav className='navigation'>
@@ -21,4 +21,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default Navbar;

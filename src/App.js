@@ -1,11 +1,13 @@
 import './App.css';
-
-import Navigation from './routes/Navigation';
+import Navbar from './routes/Navbar';
 
 function App() {
   return (
-    <div className='App'>
-      <Navigation />
+    <div>
+      <Navbar />
+      <div className='App'>
+        <div className='main'>Main Content</div>
+      </div>
     </div>
   );
 }

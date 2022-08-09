@@ -1,11 +1,11 @@
 import React from 'react';
-import Navigation from './Navigation';
 import './About.css';
+import Navbar from './Navbar';
 
 const About = () => {
   return (
     <div>
-      <Navigation />
+      <Navbar />
       <div className='about'>
         <h1 className='about__main-title'>About Me Page</h1>
       </div>
